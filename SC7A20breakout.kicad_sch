@@ -1934,7 +1934,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 38.1) (xy 201.93 38.1)
+			(xy 193.04 40.64) (xy 201.93 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2004,6 +2004,26 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 40.64) (xy 191.77 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85dc70d7-e5ee-464d-bafd-e6d7a218c2e5")
+	)
+	(wire
+		(pts
+			(xy 201.93 40.64) (xy 201.93 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d0a518b-02ae-4623-af60-7186dae33728")
+	)
+	(wire
+		(pts
 			(xy 96.52 40.64) (xy 105.41 40.64)
 		)
 		(stroke
@@ -2044,7 +2064,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 38.1) (xy 191.77 38.1)
+			(xy 181.61 40.64) (xy 191.77 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2054,7 +2074,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 77.47) (xy 81.28 77.47)
+			(xy 73.66 78.74) (xy 82.55 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2074,7 +2094,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 72.39) (xy 81.28 72.39)
+			(xy 73.66 73.66) (xy 82.55 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2167,7 +2187,7 @@
 		(uuid "2d6b2159-8680-40b1-ac4c-da40b7a9c032")
 	)
 	(label "SCL{slash}SCK"
-		(at 72.39 72.39 0)
+		(at 73.66 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2233,7 +2253,7 @@
 		(uuid "59eea5a3-f9d3-462c-9e1f-7b9d92dd8a7a")
 	)
 	(label "SDA{slash}MOSI"
-		(at 72.39 77.47 0)
+		(at 73.66 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2266,7 +2286,7 @@
 		(uuid "9dacf05a-7eef-4ea3-af00-1be929deab81")
 	)
 	(label "SDA{slash}MOSI"
-		(at 185.42 38.1 0)
+		(at 181.61 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2299,7 +2319,7 @@
 		(uuid "e0c4c039-abe0-4f18-9388-dcf1f6fdb59f")
 	)
 	(label "SCL{slash}SCK"
-		(at 196.85 38.1 0)
+		(at 193.04 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2441,6 +2461,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 201.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "820cc66f-cc13-403e-9967-a4ac51a0d09f")
 		)
@@ -2511,6 +2540,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 191.77 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac7691ce-febc-4d0f-8df2-4192470a0203")
 		)
@@ -2554,7 +2592,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 194.31 64.77 0)
 			(effects
 				(font
@@ -2781,6 +2819,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1592"
+			(at 91.44 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1a73caba-2bfb-49ae-9fd1-afa28916ebe6")
 		)
@@ -2922,6 +2969,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7430446"
+			(at 116.84 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "MP"
 			(uuid "cf271db1-c6e8-491d-8619-4d030cef92b2")
 		)
@@ -3014,7 +3070,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 91.44 67.31 0)
+		(at 92.71 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3023,7 +3079,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c0bfd6b-e4fb-40bb-9260-4debeb5ebb48")
 		(property "Reference" "#PWR06"
-			(at 91.44 71.12 0)
+			(at 92.71 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3032,7 +3088,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 91.44 62.23 0)
+			(at 92.71 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3040,7 +3096,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 67.31 0)
+			(at 92.71 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3049,7 +3105,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 67.31 0)
+			(at 92.71 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3058,7 +3114,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 91.44 67.31 0)
+			(at 92.71 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,6 +3254,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1592"
+			(at 83.82 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "eba8df94-6cb9-4218-bff0-242e76189079")
 		)
@@ -3215,7 +3280,7 @@
 	)
 	(symbol
 		(lib_id "maxkicad:Qwiic_I2C")
-		(at 88.9 74.93 0)
+		(at 90.17 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3223,7 +3288,7 @@
 		(dnp no)
 		(uuid "73cb1aef-a570-406f-9341-b246d18d9946")
 		(property "Reference" "J1"
-			(at 87.376 65.786 0)
+			(at 88.646 67.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3232,7 +3297,7 @@
 			)
 		)
 		(property "Value" "Qwiic_I2C_connector"
-			(at 69.596 68.326 0)
+			(at 70.866 69.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3241,7 +3306,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
-			(at 92.71 81.28 0)
+			(at 93.98 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3251,7 +3316,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 83.82 0)
+			(at 93.98 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3261,7 +3326,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 74.93 0)
+			(at 90.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7430446"
+			(at 90.17 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3387,7 +3461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 194.31 58.42 0)
 			(effects
 				(font
@@ -3545,7 +3619,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1k"
 			(at 158.75 33.0199 0)
 			(effects
 				(font
@@ -3573,6 +3647,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 156.21 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25585"
 			(at 156.21 31.75 0)
 			(effects
 				(font
@@ -3624,7 +3707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 194.31 71.12 0)
 			(effects
 				(font
@@ -3960,7 +4043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 194.31 52.07 0)
 			(effects
 				(font
@@ -3998,7 +4081,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 82.55 0)
+		(at 92.71 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4007,7 +4090,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6017417-1347-4aba-93cb-fb7da340ca4f")
 		(property "Reference" "#PWR02"
-			(at 91.44 88.9 0)
+			(at 92.71 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4016,7 +4099,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 87.63 0)
+			(at 92.71 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4024,7 +4107,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 82.55 0)
+			(at 92.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4033,7 +4116,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 82.55 0)
+			(at 92.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4042,7 +4125,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 82.55 0)
+			(at 92.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4241,6 +4324,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 156.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965799"
 			(at 156.21 39.37 0)
 			(effects
 				(font
